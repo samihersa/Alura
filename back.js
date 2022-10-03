@@ -1,4 +1,4 @@
-function criptar (){
+function cript (){
     var texto = document.querySelector("#input-texto").value;
     var cifrar = texto.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat");
     document.querySelector(".text-salida").value = cifrar;
@@ -7,7 +7,7 @@ function criptar (){
 }
 
 var boton1 = document.querySelector("#btn-criptar");
-boton1.onclick = criptar;
+boton1.onclick = cript;
 
 function descriptar (){
     var texto = document.querySelector("#input-texto").value;
